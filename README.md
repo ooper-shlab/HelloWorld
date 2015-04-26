@@ -2,9 +2,6 @@
 
 Translated by OOPer in cooperation with shlab.jp, on 2015/4/26.
 
-The translated project contains Objective-C files, to use with C-function callbacks.
-For somebody who are searching a full-Swift solution, this is not yours.
-
 Based on
 <https://developer.apple.com/library/ios/samplecode/HelloWorld_iPhone/Introduction/Intro.html#//apple_ref/doc/uid/DTS40007709>
 2010-06-24.
