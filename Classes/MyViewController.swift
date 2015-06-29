@@ -104,7 +104,7 @@ class MyViewController: UIViewController, UITextFieldDelegate {
 //
 //	// Store the text of the text field in the 'string' instance variable.
 //	self.string = textField.text;
-        self.string = textField.text
+        self.string = textField.text ?? ""
 //    // Set the text of the label to the value of the 'string' instance variable.
 //	label.text = self.string;
         label.text = self.string
@@ -132,7 +132,7 @@ class MyViewController: UIViewController, UITextFieldDelegate {
 //
 //- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 //{
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
 //    // Dismiss the keyboard when the view outside the text field is touched.
 //    [textField resignFirstResponder];
         textField.resignFirstResponder()
