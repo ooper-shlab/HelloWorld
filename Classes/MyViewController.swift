@@ -52,108 +52,53 @@
  Copyright (C) 2010 Apple Inc. All Rights Reserved.
 
  */
-//
-//#import <UIKit/UIKit.h>
+
 import UIKit
-//
-//@interface MyViewController : UIViewController <UITextFieldDelegate> {
+
 @objc(MyViewController)
 class MyViewController: UIViewController, UITextFieldDelegate {
-//
-//	IBOutlet UITextField *textField;
-//	IBOutlet UILabel *label;
-//	NSString *string;
-//}
-//
-//@property (nonatomic, retain) UITextField *textField;
+    
     @IBOutlet var textField: UITextField!
-//@property (nonatomic, retain) UILabel *label;
     @IBOutlet var label: UILabel!
-//@property (nonatomic, copy) NSString *string;
     var string: String = ""
-//
-//- (void)updateString;
-//
-//@end
-//
-//
-//#import "MyViewController.h"
-//
-//
-//@implementation MyViewController
-//
-//@synthesize textField;
-//@synthesize label;
-//@synthesize string;
-//
-//- (void)viewDidLoad {
+    
+    
     override func viewDidLoad() {
-//    // When the user starts typing, show the clear button in the text field.
-//    textField.clearButtonMode = UITextFieldViewModeWhileEditing;
-        textField.clearButtonMode = UITextFieldViewMode.WhileEditing
-//    // When the view first loads, display the placeholder text that's in the
-//    // text field in the label.
-//    label.text = textField.placeholder;
+        // When the user starts typing, show the clear button in the text field.
+        textField.clearButtonMode = UITextFieldViewMode.whileEditing
+        // When the view first loads, display the placeholder text that's in the
+        // text field in the label.
         label.text = textField.placeholder
-//}
     }
-//
-//
-//- (void)updateString {
+    
+    
     func updateString() {
-//
-//	// Store the text of the text field in the 'string' instance variable.
-//	self.string = textField.text;
+        
+        // Store the text of the text field in the 'string' instance variable.
         self.string = textField.text ?? ""
-//    // Set the text of the label to the value of the 'string' instance variable.
-//	label.text = self.string;
+        // Set the text of the label to the value of the 'string' instance variable.
         label.text = self.string
-//}
     }
-//
-//
-//- (BOOL)textFieldShouldReturn:(UITextField *)theTextField {
-    func textFieldShouldReturn(theTextField: UITextField) -> Bool {
-//	// When the user presses return, take focus away from the text field so that the keyboard is dismissed.
-//	if (theTextField == textField) {
+    
+    
+    func textFieldShouldReturn(_ theTextField: UITextField) -> Bool {
+        // When the user presses return, take focus away from the text field so that the keyboard is dismissed.
         if theTextField === textField {
-//		[textField resignFirstResponder];
             textField.resignFirstResponder()
-//        // Invoke the method that changes the greeting.
-//        [self updateString];
+            // Invoke the method that changes the greeting.
             self.updateString()
-//	}
         }
-//	return YES;
         return true
-//}
     }
-//
-//
-//- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-//    // Dismiss the keyboard when the view outside the text field is touched.
-//    [textField resignFirstResponder];
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        // Dismiss the keyboard when the view outside the text field is touched.
         textField.resignFirstResponder()
-//    // Revert the text field to the previous value.
-//    textField.text = self.string;
+        // Revert the text field to the previous value.
         textField.text = self.string
-//    [super touchesBegan:touches withEvent:event];
-        super.touchesBegan(touches, withEvent: event)
-//}
+        super.touchesBegan(touches, with: event)
     }
-//
-//
-//- (void)dealloc {
-//	// To adhere to memory management rules, release the instance variables.
-//    // 'textField' and 'label' are objects in the nib file and are created when the nib
-//    // is loaded.
-//	[textField release];
-//	[label release];
-//	[super dealloc];
-//}
-//
-//
-//@end
+    
+    
 }

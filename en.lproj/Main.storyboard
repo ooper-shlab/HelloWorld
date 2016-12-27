@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lza-Xr-42V">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My View Controller-->
+        <scene sceneID="Lbd-wN-Vs2">
+            <objects>
+                <viewController id="lza-Xr-42V" customClass="MyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rcP-Qr-RaT"/>
+                        <viewControllerLayoutGuide type="bottom" id="7gO-S2-XiO"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="7hy-rt-RFO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="zAo-oS-Qb8">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zAo-oS-Qb8" secondAttribute="height" multiplier="320:480" id="AeX-8Y-Efd"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hello, World!" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ohf-M6-V2O">
+                                <rect key="frame" x="44" y="32" width="232" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="jKn-G8-qbV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="alphabet" returnKeyType="done"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lza-Xr-42V" id="23B-2U-6bb"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Test" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="6YP-dj-kCo">
+                                <rect key="frame" x="47" y="64" width="226" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="utr-SZ-bF0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
+                                <color key="textColor" red="0.74596768619999998" green="0.74596768619999998" blue="0.74596768619999998" alpha="0.99000001000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ohf-M6-V2O" firstAttribute="centerX" secondItem="7hy-rt-RFO" secondAttribute="centerX" id="56o-1h-2PS"/>
+                            <constraint firstItem="6YP-dj-kCo" firstAttribute="centerX" secondItem="ohf-M6-V2O" secondAttribute="centerX" id="BPd-Zr-DNk"/>
+                            <constraint firstAttribute="trailing" secondItem="zAo-oS-Qb8" secondAttribute="trailing" id="Ewg-hN-VuB"/>
+                            <constraint firstItem="6YP-dj-kCo" firstAttribute="leading" secondItem="7hy-rt-RFO" secondAttribute="leadingMargin" constant="31" id="HZq-R1-Lf6"/>
+                            <constraint firstItem="7gO-S2-XiO" firstAttribute="top" secondItem="zAo-oS-Qb8" secondAttribute="bottom" id="Uzh-sJ-yle"/>
+                            <constraint firstItem="ohf-M6-V2O" firstAttribute="leading" secondItem="7hy-rt-RFO" secondAttribute="leadingMargin" constant="28" id="e1v-10-Mlx"/>
+                            <constraint firstItem="zAo-oS-Qb8" firstAttribute="leading" secondItem="7hy-rt-RFO" secondAttribute="leading" id="g2K-nx-uPe"/>
+                            <constraint firstItem="6YP-dj-kCo" firstAttribute="top" secondItem="zAo-oS-Qb8" secondAttribute="top" constant="64" id="iH3-V2-ihn"/>
+                            <constraint firstItem="ohf-M6-V2O" firstAttribute="top" secondItem="rcP-Qr-RaT" secondAttribute="bottom" constant="12" id="jz8-r9-3Yd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="6YP-dj-kCo" id="lD1-9f-sMf"/>
+                        <outlet property="textField" destination="ohf-M6-V2O" id="yWw-uP-xJQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z7z-tt-TBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="180.35982008995504"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background.png" width="320" height="480"/>
+    </resources>
+</document>

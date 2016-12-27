@@ -52,64 +52,19 @@
  Copyright (C) 2010 Apple Inc. All Rights Reserved.
 
  */
-//
-//#import <UIKit/UIKit.h>
+
 import UIKit
-//
-//@class MyViewController;
-//
-//@interface HelloWorldAppDelegate : NSObject <UIApplicationDelegate> {
+
 @UIApplicationMain
 @objc(HelloWorldAppDelegate)
 class HelloWorldAppDelegate: NSObject, UIApplicationDelegate {
-//
-//	IBOutlet UIWindow *window;
-//	MyViewController *myViewController;
-//}
-//
-//@property (nonatomic, retain) UIWindow *window;
-    @IBOutlet var window: UIWindow?
-//@property (nonatomic, retain) MyViewController *myViewController;
-//
-//@end
-//
-//#import "HelloWorldAppDelegate.h"
-//#import "MyViewController.h"
-//
-//
-//@implementation HelloWorldAppDelegate
-//
-//@synthesize window;
-//@synthesize myViewController;
-//
-//
-//- (void)applicationDidFinishLaunching:(UIApplication *)application {
-    func applicationDidFinishLaunching(application: UIApplication) {
-//
-//	// Set up the view controller
-//	MyViewController *aViewController = [[MyViewController alloc] initWithNibName:@"HelloWorld" bundle:[NSBundle mainBundle]];
-        let aViewController = MyViewController(nibName: "HelloWorld", bundle: NSBundle.mainBundle())
-//	self.myViewController = aViewController;
-        window?.rootViewController = aViewController
-//	[aViewController release];
-//
-//    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleBlackOpaque];
-        UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
-//
-//	// Add the view controller's view as a subview of the window
-//	UIView *controllersView = [myViewController view];
-//	[window addSubview:controllersView];
-//	[window makeKeyAndVisible];
-        window?.makeKeyAndVisible()
-//}
+    
+    var window: UIWindow?
+    
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+        return true
     }
-//
-//
-//- (void)dealloc {
-//	[myViewController release];
-//	[window release];
-//	[super dealloc];
-//}
-//
-//@end
+    
+    
 }

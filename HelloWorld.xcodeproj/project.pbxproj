@@ -7,42 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1804550411D2CAB700C48934 /* HelloWorld.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804550011D2CAB700C48934 /* HelloWorld.xib */; };
-		1804550511D2CAB700C48934 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1804550211D2CAB700C48934 /* MainWindow.xib */; };
 		1804550911D2CABF00C48934 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804550611D2CABF00C48934 /* Background.png */; };
-		1804550A11D2CABF00C48934 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804550711D2CABF00C48934 /* Default.png */; };
-		1804551511D2CB3900C48934 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804550E11D2CB3900C48934 /* Icon-72.png */; };
-		1804551611D2CB3900C48934 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804550F11D2CB3900C48934 /* Icon-Small-50.png */; };
-		1804551711D2CB3900C48934 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804551011D2CB3900C48934 /* Icon-Small.png */; };
-		1804551811D2CB3900C48934 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804551111D2CB3900C48934 /* Icon-Small@2x.png */; };
-		1804551911D2CB3900C48934 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804551211D2CB3900C48934 /* Icon.png */; };
-		1804551A11D2CB3900C48934 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1804551311D2CB3900C48934 /* Icon@2x.png */; };
-		1804551B11D2CB3900C48934 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 1804551411D2CB3900C48934 /* iTunesArtwork */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
-		D79C54E91AEC69E60032275E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D79C54E81AEC69E60032275E /* Default-568h@2x.png */; };
+		D72E1E5A1E12017B00817B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E1E581E12017B00817B4B /* Main.storyboard */; };
+		D72E1E5F1E12020300817B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E1E5D1E12020300817B4B /* LaunchScreen.storyboard */; };
+		D72E1E611E12031400817B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72E1E601E12031400817B4B /* Images.xcassets */; };
 		D79C54EC1AEC6CEB0032275E /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C54EB1AEC6CEB0032275E /* MyViewController.swift */; };
 		D79C54EE1AEC6E5C0032275E /* HelloWorldAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79C54ED1AEC6E5C0032275E /* HelloWorldAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1804550111D2CAB700C48934 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HelloWorld.xib; sourceTree = "<group>"; };
-		1804550311D2CAB700C48934 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		1804550611D2CABF00C48934 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background.png; path = images/Background.png; sourceTree = "<group>"; };
-		1804550711D2CABF00C48934 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
-		1804550E11D2CB3900C48934 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "images/Icon-72.png"; sourceTree = "<group>"; };
-		1804550F11D2CB3900C48934 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "images/Icon-Small-50.png"; sourceTree = "<group>"; };
-		1804551011D2CB3900C48934 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "images/Icon-Small.png"; sourceTree = "<group>"; };
-		1804551111D2CB3900C48934 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "images/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		1804551211D2CB3900C48934 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = images/Icon.png; sourceTree = "<group>"; };
-		1804551311D2CB3900C48934 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "images/Icon@2x.png"; sourceTree = "<group>"; };
 		1804551411D2CB3900C48934 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = images/iTunesArtwork; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28D916E10DCB86C500DA1262 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; wrapsLines = 1; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79C54E81AEC69E60032275E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D72E1E591E12017B00817B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72E1E5E1E12020300817B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D72E1E601E12031400817B4B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloWorld/Images.xcassets; sourceTree = "<group>"; };
 		D79C54EB1AEC6CEB0032275E /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		D79C54ED1AEC6E5C0032275E /* HelloWorldAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldAppDelegate.swift; sourceTree = "<group>"; };
 		D79C54EF1AEC78300032275E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -82,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				D79C54EF1AEC78300032275E /* README.md */,
-				D79C54E81AEC69E60032275E /* Default-568h@2x.png */,
 				28D916E10DCB86C500DA1262 /* ReadMe.txt */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -95,18 +79,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1804550E11D2CB3900C48934 /* Icon-72.png */,
-				1804550F11D2CB3900C48934 /* Icon-Small-50.png */,
-				1804551011D2CB3900C48934 /* Icon-Small.png */,
-				1804551111D2CB3900C48934 /* Icon-Small@2x.png */,
-				1804551211D2CB3900C48934 /* Icon.png */,
-				1804551311D2CB3900C48934 /* Icon@2x.png */,
+				D72E1E601E12031400817B4B /* Images.xcassets */,
 				1804551411D2CB3900C48934 /* iTunesArtwork */,
 				1804550611D2CABF00C48934 /* Background.png */,
-				1804550711D2CABF00C48934 /* Default.png */,
-				1804550011D2CAB700C48934 /* HelloWorld.xib */,
-				1804550211D2CAB700C48934 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				D72E1E581E12017B00817B4B /* Main.storyboard */,
+				D72E1E5D1E12020300817B4B /* LaunchScreen.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -147,7 +125,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -174,18 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1804550411D2CAB700C48934 /* HelloWorld.xib in Resources */,
-				1804550511D2CAB700C48934 /* MainWindow.xib in Resources */,
 				1804550911D2CABF00C48934 /* Background.png in Resources */,
-				1804550A11D2CABF00C48934 /* Default.png in Resources */,
-				1804551511D2CB3900C48934 /* Icon-72.png in Resources */,
-				D79C54E91AEC69E60032275E /* Default-568h@2x.png in Resources */,
-				1804551611D2CB3900C48934 /* Icon-Small-50.png in Resources */,
-				1804551711D2CB3900C48934 /* Icon-Small.png in Resources */,
-				1804551811D2CB3900C48934 /* Icon-Small@2x.png in Resources */,
-				1804551911D2CB3900C48934 /* Icon.png in Resources */,
-				1804551A11D2CB3900C48934 /* Icon@2x.png in Resources */,
-				1804551B11D2CB3900C48934 /* iTunesArtwork in Resources */,
+				D72E1E611E12031400817B4B /* Images.xcassets in Resources */,
+				D72E1E5A1E12017B00817B4B /* Main.storyboard in Resources */,
+				D72E1E5F1E12020300817B4B /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,20 +179,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1804550011D2CAB700C48934 /* HelloWorld.xib */ = {
+		D72E1E581E12017B00817B4B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1804550111D2CAB700C48934 /* en */,
+				D72E1E591E12017B00817B4B /* en */,
 			);
-			name = HelloWorld.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1804550211D2CAB700C48934 /* MainWindow.xib */ = {
+		D72E1E5D1E12020300817B4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1804550311D2CAB700C48934 /* en */,
+				D72E1E5E1E12020300817B4B /* en */,
 			);
-			name = MainWindow.xib;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -227,6 +202,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -238,12 +214,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = HelloWorld;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -252,18 +230,35 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:identifier}";
 				PRODUCT_NAME = HelloWorld;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
@@ -274,13 +269,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
